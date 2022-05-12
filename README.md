@@ -29,14 +29,17 @@ The above command will first delete the existing configuration and create a fres
 
 #Usage
 ------
+```
 python pm.py -h
 usage: pm.py [-h] [-s NAME] [-u URL] [-e EMAIL] [-l LOGIN] [--length LENGTH] [-c] option
+```
 
 Description
 
 positional arguments:
   option                (a)dd / (e)xtract / (g)enerate
 
+```
 optional arguments:
   -h, --help            show this help message and exit
   -s NAME, --name NAME  Site name
@@ -47,6 +50,7 @@ optional arguments:
                         Username
   --length LENGTH       Length of the password to generate
   -c, --copy            Copy password to clipboard
+```
 
 ### Add entry
 ```
