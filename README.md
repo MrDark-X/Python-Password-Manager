@@ -10,18 +10,18 @@ Configure MariaDB and Create user 'pm' and grant permissions
           
          
 #Configure Password Manager
----------------------------
+
 To run the Password Manager, We need to configure it and add our MASTER PASSWORD 
-.......................................
+
 python config.py make
 
 The above command will make a new configuration by asking you to choose a MASTER PASSWORD.
 This will generate the DEVICE SECRET, create db and required tables.
-.......................................
+
 python config.py delete
 
 The above command will delete the existing configuration. Doing this will completely delete your device secret and all your entries and you will loose all your passwords. So be aware!
-.......................................
+
 python config.py remake
 
 The above command will first delete the existing configuration and create a fresh new configuration by asking you to choose a MASTER PASSWORD, generate the DEVICE SECRET, create the db and required tables.
@@ -48,7 +48,6 @@ optional arguments:
   --length LENGTH       Length of the password to generate
   -c, --copy            Copy password to clipboard
 ```
-
 
 ### Add entry
 ```
