@@ -47,7 +47,6 @@ optional arguments:
                         Username
   --length LENGTH       Length of the password to generate
   -c, --copy            Copy password to clipboard
-```
 
 ### Add entry
 ```
@@ -56,3 +55,4 @@ python pm.py add -s mysite -u mysite.com -e hello@email.com -l myusername
 ### Retrieve entry
 ```
 python pm.py extract
+```
