@@ -5,9 +5,13 @@ A simple local password manager written in Python and MariaDB. Uses [pbkdf2](htt
 In order to work with this Password Manager You need to install and run MariaDB-server
 
 Configure MariaDB and Create user 'pm' and grant permissions
-          -CREATE USER 'pm'@localhost IDENTIFIED BY 'password';                             \\this command creates user PM with password as Password
-          -GRANT ALL PRIVILEGES ON *.* TO 'pm'@localhost IDENTIFIED BY 'password';           \\this command grants all privilages
-          
+```
+CREATE USER 'pm'@localhost IDENTIFIED BY 'password';                             \\this command creates user PM with password as Password
+```
+
+```   
+-GRANT ALL PRIVILEGES ON *.* TO 'pm'@localhost IDENTIFIED BY 'password';           \\this command grants all privilages
+```          
          
 ### Configure Password Manager
 
