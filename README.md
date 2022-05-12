@@ -9,7 +9,7 @@ Configure MariaDB and Create user 'pm' and grant permissions
           -GRANT ALL PRIVILEGES ON *.* TO 'pm'@localhost IDENTIFIED BY 'password';           \\this command grants all privilages
           
          
-#Configure Password Manager
+### Configure Password Manager
 
 To run the Password Manager, We need to configure it and add our MASTER PASSWORD 
 
@@ -27,14 +27,14 @@ python config.py remake
 The above command will first delete the existing configuration and create a fresh new configuration by asking you to choose a MASTER PASSWORD, generate the DEVICE SECRET, create the db and required tables.
 
 
-#Usage
+### Usage
 ------
 ```
 python pm.py -h
 usage: pm.py [-h] [-s NAME] [-u URL] [-e EMAIL] [-l LOGIN] [--length LENGTH] [-c] option
 ```
 
-Description
+### Description
 
 positional arguments:
   option                (a)dd / (e)xtract / (g)enerate
